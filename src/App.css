@@ -1,0 +1,23 @@
+html{
+  background-color: #282c34;
+}
+
+.page {
+  background-color: #282c34;
+  width: 100vw;
+  height: 100vh;
+  min-height: 5em;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5em;
+  padding: 2em;
+  z-index: 15000;
+}
+
+.App{
+  background-color: #282c34;
+}
+
+.witos{
+  color: white;
+}
