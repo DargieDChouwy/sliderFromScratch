@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import Page from './Page';
-import Nav from './Nav';
-import Link from './Link';
+import Page from './components/Page';
+import Nav from './components/Nav';
+import Link from './components/Link';
 
 class App extends Component {
 
@@ -11,38 +11,38 @@ class App extends Component {
             <div className="App">
                 <div>
                     <Link to="/about" >
-                        <button>Main</button>
+                        <button>main</button>
                     </Link>
-                    <Link to="/green" >
-                        <button>green</button>
+                    <Link to="/hello" >
+                        <button>hello</button>
                     </Link>
-                    <Link to="/red" >
-                        <button>red</button>
+                    <Link to="/my" >
+                        <button>my</button>
                     </Link>
-                    <Link to="/blue" >
-                        <button>blue</button>
+                    <Link to="/world" >
+                        <button>world</button>
                     </Link>
-                    <Link to="/brown" >
-                        <button>brown</button>
+                    <Link to="/!" >
+                        <button>!</button>
                     </Link>
                 </div>
                 <Nav>
-                    <Page path="/green">
+                    <Page path="/hello">
                         <div className="page">
                             <h1 className="witos">HELLO</h1>
                         </div>
                     </Page>
-                    <Page path="/red">
+                    <Page path="/my">
                         <div className="page">
                             <h1 className="witos">MY</h1>
                         </div>
                     </Page>
-                    <Page path="/blue">
+                    <Page path="/world">
                         <div className="page">
                             <h1 className="witos">WORLD</h1>
                         </div>
                     </Page>
-                    <Page path="/brown">
+                    <Page path="/!">
                         <div className="page">
                             <h1 className="witos">!!</h1>
                         </div>
