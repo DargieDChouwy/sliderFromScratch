@@ -54,7 +54,7 @@ class Page extends Component {
                     transform: 'translateX('+ this.props.left + 'vw)',
                     animationTimingFunction: 'ease-in',
                     zIndex: -20,
-                    transition: 'transform 1.5s ease-out'
+                    transition: 'transform 1s ease-out'
                 }}> {this.state.shouldRenderChildren &&
             this.props.children
             }
